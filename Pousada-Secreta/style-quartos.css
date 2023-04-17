@@ -1,0 +1,210 @@
+body{
+    height: 100%;
+    margin: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+#corpo{
+    width: 100%;
+    right: 0%;
+}
+
+.link-topo{
+    color: rgb(77, 77, 77);
+    text-decoration: none;
+    margin: 15px;
+    font-size: 20px;
+    
+}
+.link-pousada{
+    color: rgb(102, 102, 102);
+    text-decoration: none;
+    margin: 15px;
+    font-size: 25px;
+}
+span{
+    color: rgb(143, 143, 245);
+}
+#topo{
+    width: 100%;
+    text-align: center;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    align-content: center;
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+#conteudo-topo{
+   width: 1024px;
+   margin: auto;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: nowrap;
+   justify-content: space-between;
+   align-items: center;
+}
+
+#img-fundo{
+    background-image: url(assets/img-fundo.jpg);
+    width: 100%;
+    height: 27vh;
+    background-size: cover;
+}
+img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    
+}
+.mensagem{
+    text-align: center;
+    font-size: 16px;
+    color: rgb(77, 77, 77);
+    margin: 70px auto 30px auto;
+    font-weight: normal;
+}
+.mensagem h2{
+    font-weight: normal;
+    font-size: 35px;
+}
+
+#quarto{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    max-width: 1024px;
+    margin: auto;
+    
+}
+.quartos{
+    width: 30%;
+    text-align: center;
+    padding-bottom: 15px;
+    height: 210px;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+    color: rgb(77, 77, 77);
+}
+
+
+ul{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+li{ width: 25%;}
+
+#rodape{
+    background-color: #4A997E; 
+    border-bottom: 2px solid green;
+}
+
+#contato{
+    max-width: 1024px;
+    margin: 30px auto 20px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    border-bottom: 2px solid #3E8D70; 
+   
+}
+.contato{
+    width: 23%;
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    
+}
+.contato a{
+    text-decoration: none;
+    color: white;
+    font-weight: normal;
+    font-size: 15px;
+}
+.icone{
+    width: 20%;
+    height: 100%;
+    margin-right: 10px;
+}
+.icone img{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    background-size: cover;
+}
+
+#copy{
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 0px;
+    width: 100%;
+}
+
+
+@media (max-width:1100px){
+
+    .quartos{ 
+    width: 40%;
+    margin-bottom: 10px;
+}
+    
+    .contato{
+        width: 60%;
+    }
+    #contato{ justify-content: space-between;
+    margin-left: 10px;}
+    .contato1{ width: 30%; font-size: 25px;}
+    .contato2{width: 20%;  
+    }
+    .contato a{ font-size: 10px;}
+    .icone{
+        display: flex;
+        justify-content: center;
+    }
+    li{ width: 30%;}
+}
+
+@media (max-width:650px ){
+    
+    .link-topo{
+        padding: 2px;
+        font-size: 15px;
+        margin-right: 5px;
+    }
+    .quartos{ 
+        width: 60%;
+        margin: 20px 0;    
+    }
+    .contato2{width: 20%;  
+    }
+    .contato1{ width: 30%; font-size: 15px;}
+    .contato a{ font-size: 6px;}
+    
+    #conteudo-h1{
+        width: 70%;
+    }
+    li{ width: 40%;}
+}

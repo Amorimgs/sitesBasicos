@@ -1,0 +1,333 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #80808029;
+    font-family: raleway;
+}
+
+header{
+    height: 55px;
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+
+}
+.container-topo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.container-topo p{
+    font-size: 24px;
+    color: #5d15d1;
+    margin-left: 10px;
+}
+.container{
+    width: 100%;
+    max-width: 1024px;
+}
+.logo-topo{
+    width: 32px;
+    height: 32px;
+}
+.container-formulario{
+    width: 100%;
+    height: auto;
+    background-image: url(assets/imagens/bahia.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.div-container-formulario{
+    align-items: center;
+    margin:auto;
+    padding: 50px 0;
+    width: 100%;
+    height: auto;
+}
+.titulo-formulario{
+    height: 35px;
+    width: 100%;
+    background-color: #5d15d1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.titulo-formulario img{
+   width: 20px;
+   height: 20px;
+   transform: rotate(-45deg);
+    
+}
+.titulo-formulario h1{
+    font-size: 14px;
+    color: #fff;
+    margin-left: 5px;
+}
+.corpo-formulario{
+    width: 100%;
+    background-color: #fff;
+    padding: 30px 25px 20px 25px;
+}
+.corpo-formulario h2{
+    font-size: 22px;
+    margin-bottom: 24px;
+    display: flex;
+    flex-direction: column;
+}
+label{
+    font-size: 16px;
+}
+input{
+    height: 32px;
+    margin: 10px 0;
+    width: 100%;
+    padding: 0 5px;
+}
+
+select{
+    padding: 0 3px;
+    height: 32px;
+    margin: 10px 0;
+    width: 100%;
+}
+.area-marcada{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.lista-selecao{
+    width: calc(50% - 10px);
+}
+
+.area-marcaçao{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+.lista{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    width: 120px;
+}
+.lista input{
+    width: 15px;
+
+}
+.lista label{
+    margin-left: 8px;
+}
+button{
+    width: 160px;
+    height: 32px;
+    background-color: #5d15d1;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    margin-top: 12px;
+}
+button:hover{
+    cursor: pointer;
+}
+
+.ofertas{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin: 32px auto 0 auto;
+}
+.ofertas h2{
+    font-size: 20px;
+    margin-bottom: 10px;
+
+}
+
+.ofertas h3{
+    font-size: 16px;
+    margin-bottom: 15px;
+
+}
+.ofertas h3 span{
+    font-weight: bold;
+}
+figure{
+    width: 100%;
+    height: 375px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.grupo-ofertas1{
+    position: relative;
+    width: calc(50% - 10px);
+    height: 100%;
+}
+.grupo-ofertas2{
+    position: relative;
+    width: calc(50% - 10px);
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.grupo-ofertas2 div{
+    height: calc(50% - 10px);
+    width: calc(50% - 10px);
+    margin: 0 5px;
+    position: relative;
+}
+.grupo-ofertas2 div img{
+    width: 100%;
+    height: 100%;
+    
+
+}
+.grupo-ofertas1 img{
+    width: 100%;
+    height: 100%;
+    
+    
+}
+figure p{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%; 
+    background-color: #000000;
+    opacity: 50%;
+    color: white;
+    font-size: 17px;
+    padding: 5px 10px;
+    
+}
+.promoçoes{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;   
+}
+.div-promoçoes{
+    width: calc(50% - 10px);
+    height: 100%;
+}
+.div-promoçoes img{
+    
+    width: 100%;
+    height: 100%;
+}
+.div-promoçoes div{
+    width: 100%;
+    padding: 20px;
+    background-color: #fff;
+}
+.div-promoçoes h2{
+    font-size: 16px;
+
+}
+.div-promoçoes p{
+    color: gray;
+    font-size: 14px;
+    margin-top: 15px;
+}
+footer{
+    width: 100%;
+    background-color: #5d15d1;
+    margin-top: 32px;
+}
+.rodape{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+.rodape-div{
+    display: flex;
+    flex-direction: column;
+    margin: 15px 0;
+}
+.rodape-div h2{
+    color: #fff;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+.rodape-div div{
+    display: flex;
+    justify-content: flex-start;
+    margin: 5px 0;
+}
+.rodape-div div img{
+    width: 18px;
+    height: 18px;
+}
+.rodape-div div span{
+    color: #fff;
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+@media (max-width:1100px){
+    .container{
+        width: 90%;
+    }
+}
+
+@media(max-width:768px){
+    button{
+        width: 100%;
+    }
+    figure{
+        flex-direction: column;
+        height: 100%;
+    }
+    .grupo-ofertas2{
+        width: 100%;
+    }
+    .grupo-ofertas1{
+        width: 100%;
+    }
+    .grupo-ofertas2 div{
+        width: 100%;
+        height: 225px;
+        margin: 15px 0 0 0;
+    }
+    .promoçoes{
+        flex-direction: column;
+        
+    }
+    .div-promoçoes{
+        margin-top: 15px;
+        width: 100%;
+
+    }
+    .rodape{
+        flex-direction: column;
+        align-items: center;
+    }
+    .rodape-div{
+        width: 250px;
+    }
+}
+@media (max-width:540px){
+    .area-marcada{
+        flex-direction: column;
+    }
+    .area-marcaçao{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .lista-selecao{
+        width: 100%;
+    }
+    .lista{
+        width: 100%;
+    }
+}
